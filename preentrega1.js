@@ -23,13 +23,13 @@ const precio_bellini = 95;
 
 function precio_depto(depto){
 
-    if(depto == "Serrano"){
+    if(depto == "Serrano" || depto == "serrano"){
         return precio_serrano;
     }
-    else if(depto == "San Telmo"){
+    else if(depto == "San Telmo" || depto == "san telmo"){
         return precio_santelmo;
     }
-    else if(depto == "Bellini"){
+    else if(depto == "Bellini" || depto == "bellini"){
         return precio_bellini;
     }
     else{
